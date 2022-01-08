@@ -1,9 +1,12 @@
+import { useSelector } from 'react-redux'
 import LoginModal from './components/LoginModal.js'
 
 const App = () => {
+  const username = useSelector(state => state.username.value);
+
   return (
     <div>
-      <LoginModal />
+      {!username && <LoginModal />}
     </div>
   );
 }
