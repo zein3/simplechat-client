@@ -6,6 +6,8 @@ import InputBox from './components/InputBox'
 const App = () => {
   const username = useSelector(state => state.username.value);
 
+  //document.body.classList.add('');
+
   return (
     <div>
       {!username && <LoginModal />}

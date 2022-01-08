@@ -18,7 +18,7 @@ const LoginModal = () => {
   }
 
   return (
-    <div className="h-screen w-full absolute flex items-center justify-center bg-gray-800/50">
+    <div className="h-screen w-full absolute flex items-center justify-center bg-gray-800/50 z-50">
       <div className="bg-white rounded shadow p-8 m-4 max-w-xs max-h-full text-center">
         <div className="mb-4">
           <h2>Enter your username:</h2>
