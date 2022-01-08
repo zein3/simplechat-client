@@ -33,7 +33,7 @@ const LoginModal = () => {
             />
           </div>
           <div className="flex justify-center">
-            <button className="flex-no-shrink text-white py-2 px-4 rounded bg-teal-400 hover:bg-teal-800">Go Chatting</button>
+            <button className="flex-no-shrink text-white py-2 px-4 rounded bg-teal-400 hover:bg-teal-500">Go Chatting</button>
           </div>
         </form>
       </div>

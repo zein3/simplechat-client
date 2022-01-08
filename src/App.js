@@ -1,5 +1,7 @@
 import { useSelector } from 'react-redux'
-import LoginModal from './components/LoginModal.js'
+import LoginModal from './components/LoginModal'
+import MessageWindow from './components/MessageWindow'
+import InputBox from './components/InputBox'
 
 const App = () => {
   const username = useSelector(state => state.username.value);
@@ -7,6 +9,8 @@ const App = () => {
   return (
     <div>
       {!username && <LoginModal />}
+      <MessageWindow />
+      <InputBox />
     </div>
   );
 }
