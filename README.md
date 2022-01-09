@@ -12,7 +12,11 @@ git clone https://github.com/zein3/simplechat-client.git
 ```bash
 npm install
 ```
-3. Run the website
+3a. Run the website
 ```bash
 npm start
+```
+3b. Or if you want to test the website over lan
+```bash
+HOST=0.0.0.0 npm start
 ```
