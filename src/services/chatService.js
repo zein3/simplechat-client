@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client'
 import store from '../store'
-const baseUrl = 'ws://localhost:6001';
+const baseUrl = 'http://192.168.1.8:6001';
 const socket = io(baseUrl);
 
 export const sendMessage = (message) => {
