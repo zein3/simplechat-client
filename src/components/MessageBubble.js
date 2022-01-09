@@ -1,4 +1,4 @@
-const MessageBubble = ({isFromMe, message, senderUsername, senderIp}) => {
+const MessageBubble = ({isFromMe, message, senderUsername}) => {
   const classes = ['p-2', 'max-w-xs', 'lg:max-w-lg', 'xl:max-w-xl', 'font-sans', 'text-xs', 'text-gray-200', 'rounded-sm', 'flex', 'flex-col'];
   const conditionalClass = isFromMe ? 
     ['bg-gray-900', 'self-end'] :
@@ -12,7 +12,6 @@ const MessageBubble = ({isFromMe, message, senderUsername, senderIp}) => {
     <div className={classes.concat(conditionalClass).join(' ')}>
       <div className={headerClasses.concat(conditionalHeaderClass).join(' ')}>
         <span>{senderUsername}</span>
-        <span>({senderIp})</span>
       </div>
       <div>
         <p className="inline break-words">{message}</p>
