@@ -3,7 +3,6 @@ import MessageBubble from './MessageBubble'
 
 const MessageWindow = () => {
   const messages = useSelector(state => state.messages.value);
-  console.log(messages);
 
   return (
     <div className="pb-14 h-screen w-full">
