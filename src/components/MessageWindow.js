@@ -4,8 +4,8 @@ const MessageWindow = () => {
   const aaaaa = "welkjflwaejflkwjeflaj;lkfjlsa;dkfjlaskdfj;lawkjelfkjasdl;kfjasl;kdfjalk;efj;lkasjdfl;kjsdlfk;jasd;lfkjas;ldkfjasl;kdfj;laskdjflaskdjf;laskdjfl;sakdjfl;kasdjflaksjdflaskjdflaskdfjaskldjf;aslkjdf;askljdf;laskjdf;laskdfj;laskdfj;laskjdf;laskjdf;laskdfj;lksdjf;laskdjfl;askjflsakdjflaskdjfl;asdkjfl;sakdjfl;askdjfl;askdjflasdkjflkj";
 
   return (
-    <div class="pb-14 h-screen w-full">
-      <div class="p-2 h-full w-full bg-red-800 text-white overflow-y-auto flex flex-col">
+    <div className="pb-14 h-screen w-full">
+      <div className="p-2 h-full w-full text-white overflow-y-auto flex flex-col space-y-2">
 
         <MessageBubble
           isFromMe={false}

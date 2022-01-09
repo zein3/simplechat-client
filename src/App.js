@@ -6,10 +6,8 @@ import InputBox from './components/InputBox'
 const App = () => {
   const username = useSelector(state => state.username.value);
 
-  //document.body.classList.add('');
-
   return (
-    <div>
+    <div class="bg-gradient-to-r from-green-600 to-green-800">
       {!username && <LoginModal />}
       <MessageWindow />
       <InputBox />

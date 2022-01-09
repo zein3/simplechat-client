@@ -1,5 +1,5 @@
 const MessageBubble = ({isFromMe, message, senderUsername, senderIp}) => {
-  const classes = ['p-2', 'max-w-lg', 'font-sans', 'text-xs', 'text-gray-200', 'rounded-sm', 'flex', 'flex-col'];
+  const classes = ['p-2', 'max-w-xs', 'lg:max-w-lg', 'xl:max-w-xl', 'font-sans', 'text-xs', 'text-gray-200', 'rounded-sm', 'flex', 'flex-col'];
   const conditionalClass = isFromMe ? 
     ['bg-gray-900', 'self-end'] :
     ['bg-green-900', 'self-start'];

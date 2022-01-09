@@ -9,7 +9,7 @@ const InputBox = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="px-2 py-1 lg:py-2 lg:px-8 w-full fixed bottom-0 bg-teal-900 h-14">
+      <div className="px-2 py-1 lg:py-2 lg:px-8 w-full fixed bottom-0 h-14 bg-gray-900">
         <div className="flex flex-row justify-items-center align-items-center space-x-4 w-full h-full font-sans">
           <input
             className="grow rounded-full p-4 bg-gray-200"
