@@ -8,8 +8,9 @@ const MessageWindow = () => {
     <div className="pb-14 h-screen w-full">
       <div className="p-2 h-full w-full text-white overflow-y-auto flex flex-col space-y-2">
 
-        {messages.map(message => (
+        {messages.map((message, i) => (
           <MessageBubble
+            key={i}
             senderUsername={message.senderUsername}
             senderIp={message.senderIp}
             message={message.message}

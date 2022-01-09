@@ -1,11 +1,17 @@
 import { io } from 'socket.io-client'
-
+import store from '../store'
 const baseUrl = 'ws://localhost:6001';
-
 const socket = io(baseUrl);
 
-const emit = () => socket.emit('tes');
-console.log('tes');
+export const sendMessage = (message) => {
+  const state = store.getState();
+  const senderUsername = state.username.value;
+  const myMessage = {
+    senderUsername,
+    message
+  }
 
-export default emit
+  socket.emit("message", myMessage);
+}
+
 

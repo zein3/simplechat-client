@@ -1,10 +1,16 @@
 import { useState } from 'react'
+import { sendMessage } from '../services/chatService'
 
 const InputBox = () => {
   const [messageField, setMessageField] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (messageField) {
+      sendMessage(messageField);
+      setMessageField('');
+    }
   }
 
   return (
