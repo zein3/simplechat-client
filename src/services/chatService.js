@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client'
 import store from '../store'
 import { pushMessage } from '../reducers/messageSlice'
-const baseUrl = 'http://192.168.1.8:6001';
+const baseUrl = 'https://glacial-chamber-87569.herokuapp.com/';
 const socket = io(baseUrl);
 
 const dispatchMessage = (message, isFromMe = false) => {
