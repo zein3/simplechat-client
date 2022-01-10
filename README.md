@@ -4,7 +4,7 @@ This is a simple website where user can send message to all other users. I made 
 There is only one 'chatroom', so users can't send messages privately to other users.  
 Server is available [here](https://github.com/zein3/simplechat-server)  
   
-Video Demo:
+Video Demo:  
 https://raw.githubusercontent.com/zein3/simplechat-client/main/demo/simplechat.mp4  
 
 App Demo:  
