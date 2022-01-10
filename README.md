@@ -20,7 +20,7 @@ git clone https://github.com/zein3/simplechat-client.git
 ```bash
 npm install
 ```
-3. Set the websocket server on the file src/services/chatService on a variable named baseUrl
+3. Set the websocket server on the file src/services/chatService on a variable named baseUrl  
 4a. Run the website
 ```bash
 npm start
