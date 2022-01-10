@@ -21,11 +21,11 @@ git clone https://github.com/zein3/simplechat-client.git
 npm install
 ```
 3. Set the websocket server on the file src/services/chatService on a variable named baseUrl  
-4a. Run the website
+4. Run the website
 ```bash
 npm start
 ```
-4b. Or if you want to test the website over lan
+5. Or if you want to test the website over lan
 ```bash
 HOST=0.0.0.0 npm start
 ```
